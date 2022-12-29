@@ -25,6 +25,7 @@
   justify-content: center;
 }
 
+
 .container-form {
   width: 60%;
   padding: 30px 35px;
@@ -99,6 +100,11 @@
 
 .register-mensager {
   color: var(--register-mensager-color) !important;
+}
+
+.left-image{
+  width: 300px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 600px){
