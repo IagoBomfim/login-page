@@ -9,6 +9,7 @@
   --btn-text-color: #2b134b;
   --btn-backgraund-color: #00ff88;
   --btn-shadow-color: #00ff8852;
+  --register-mensager-color: springgreen;
 }
 
 * {
@@ -86,6 +87,18 @@
   background-color: var(--btn-backgraund-color);
   cursor: pointer;
   box-shadow: 0px 10px 40px -12px var(--btn-shadow-color);
+}
+
+.container-messager > p {
+    color: var(--input-text-color);
+    position: relative;
+    margin: 5px 0;
+    left: -20px;
+    font-size: 12px;
+}
+
+.register-mensager {
+  color: var(--register-mensager-color) !important;
 }
 
 @media only screen and (max-width: 600px){
